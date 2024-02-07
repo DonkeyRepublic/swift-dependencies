@@ -13,6 +13,7 @@ let package = Package(
   products: [
     .library(
       name: "Dependencies",
+      type: .static,
       targets: ["Dependencies"]
     )
   ],
